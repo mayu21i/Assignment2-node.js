@@ -1,5 +1,5 @@
 //Q10
-const fs = require('node:fs')
+const fs = require('node:fs');
 const path = require("node:path");
 
 function deleteFile(filePath){
