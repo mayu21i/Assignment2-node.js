@@ -10,6 +10,7 @@ readStream.on('data' , (chunk) => {
 })
 readStream.on('end' , () => {
     writeStream.end();
+    console.log('File copied using streams');
 })
 
 

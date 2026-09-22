@@ -10,9 +10,9 @@ function deleteFile(filePath){
                 console.log(err);
                 return ;
             }
-            console.log(`the ${path.basename(filePath)} is deleted`);
+            console.log(`The ${path.basename(filePath)} is deleted.`);
         }
     )
 }
 
-console.log(deleteFile(path.join(__dirname , 'file.txt')));
+deleteFile(path.join(__dirname , 'file.txt'));
